@@ -31,7 +31,6 @@ public class POSTEchoTest {
                 .statusCode(200)*/
 /*                .body("data", equalTo("WRONG VALUE"));*/
     }
-}
 
 
 
