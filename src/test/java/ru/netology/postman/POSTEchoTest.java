@@ -20,7 +20,7 @@ public class POSTEchoTest {
 /*                .body(matchesJsonSchemaInClasspath("echo.schema.json"));*/
     }
 
-    @Test
+/*    @Test
     void shouldResponseInvalidEcho() {
         given()
                 .baseUri("https://postman-echo.com")
@@ -28,8 +28,8 @@ public class POSTEchoTest {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(200)
-                .body("data", equalTo("WRONG VALUE"));
+                .statusCode(200)*/
+/*                .body("data", equalTo("WRONG VALUE"));*/
     }
 }
 
